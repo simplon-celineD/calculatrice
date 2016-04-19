@@ -1,0 +1,44 @@
+*{
+  margin:0;
+  padding:0;
+}
+/*les margins et les paddings ne sont pas ajoutés aux tailles définies pour les divs*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  font-family: Geneva, Arial, sans-serif;
+}
+#boitier{
+  background-color: #001648;
+  width: 25vw;
+  height: 38vh;
+  margin-left: 35vw;
+  margin-top: 5vh;
+}
+#box_result{
+  background-color:grey;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+#resultat{
+  background-color:white;
+  width: 20vw;
+  height: 6vh;
+  margin-left: 2.5vw;
+}
+#un,#deux,#trois,#quatre,#cinq,#six,#sept,#huit,#neuf,#zero,#additionner,#soustraire,#multiplier,#diviser{
+  width: 4vw;
+  height: 4vh;
+  margin-left: 1.5vw;
+  margin-top: 2vh;
+}
+#egal{
+  width: 9.85vw;
+  height: 4vh;
+  margin-left: 1.5vw;
+
+}
